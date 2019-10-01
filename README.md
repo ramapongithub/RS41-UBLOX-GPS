@@ -12,4 +12,10 @@ Don't have one? Look at https://radiosondy.info/index.php where they are coming 
 
 Next step: Disassemble the radiosonde.
 
+If you are down to the PCB and interested in more informations, have a look at bazjos repository at https://github.com/bazjo/RS41_Hardware.
+
+The GPRS occupies only this part of the PCB on the front side, 
+![Front](https://github.com/ramapongithub/RS41-UBLOX-GPS/blob/master/pictures/front1part.jpg)
+and the same part on the rear side.
+![Rear](https://github.com/ramapongithub/RS41-UBLOX-GPS/blob/master/pictures/rear2part.jpg)
 
