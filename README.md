@@ -7,4 +7,9 @@ This GPSRs can be reused.  An instruction, how to use the GPRS from an Graw DFM-
 
 Here we will do the same for an Vaisala RS-41.
 
+First you need the radiosonde.
+Don't have one? Look at https://radiosondy.info/index.php where they are coming down.
+
+Next step: Disassemble the radiosonde.
+
 
