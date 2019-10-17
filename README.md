@@ -22,5 +22,10 @@ and the same part on the rear side.
 So, what to do?
 
 1. Cut the board at the marked lines.
-
+![Cutted](https://github.com/ramapongithub/RS41-UBLOX-GPS/blob/master/pictures/rear_cut.jpg)
+    The parts on the upper right corner of the cutted piece can be removed.
+    
 2. Solder wires to the marked points.
+    Wether you use the +5V or +3V power connection depends on your application, we will come back to this later.
+    GND can be connected practicly everywhere on the board, this is only a suggestion.
+
