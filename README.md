@@ -19,3 +19,8 @@ The GPRS occupies only this part of the PCB on the front side,
 and the same part on the rear side.
 ![Rear](https://github.com/ramapongithub/RS41-UBLOX-GPS/blob/master/pictures/rear2part.jpg)
 
+So, what to do?
+
+1. Cut the board at the marked lines.
+
+2. Solder wires to the marked points.
