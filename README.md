@@ -26,6 +26,13 @@ So, what to do?
     The parts on the upper right corner of the cutted piece can be removed.
     
 2. Solder wires to the marked points.
+![Connection](https://github.com/ramapongithub/RS41-UBLOX-GPS/blob/master/pictures/front_connection.jpg)
     Wether you use the +5V or +3V power connection depends on your application, we will come back to this later.
     GND can be connected practicly everywhere on the board, this is only a suggestion.
+    The actual realisation depends on your soldering skills. The connections are pretty small.
+    
+# Power supply
 
+For 3.3V applications use the +3V connection to power the GPS with 3.3V.
+
+For 5.0V aplications you can use the +5V. But there are some caveats. The voltage regulator will drop the supply voltage for the chip to 3.0V, not 3.3V. If you only receive data from the UBlox, this should not be a problem. An 5V MCU should detect 3.0V as high. For sending data to the UBlox the signal must be stepped down to 3.0V.
