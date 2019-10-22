@@ -12,7 +12,12 @@ Don't have one? Look at https://radiosondy.info/index.php where they are coming 
 
 Next step: Disassemble the radiosonde.
 
-If you are down to the PCB and interested in more informations, have a look at bazjos repository at https://github.com/bazjo/RS41_Hardware.
+If you are down to the PCB and interested in more informations, have a look at bazjos repository at https://github.com/bazjo/RS41_Hardware. 
+
+On his website (https://sondehunt.de/rs41-gps-maus) he has also a solution to use the RS41 as an GPS receiver without destroying the pcb, simply by reprogramming it. An easy way, but has one disadvantage: power consumption.
+All parts on the board draw power, even if you don't use them. And you can't shut them down.
+
+We will go the other way, the brutal way of cutting.
 
 The GPRS occupies only this part of the PCB on the front side, 
 ![Front](https://github.com/ramapongithub/RS41-UBLOX-GPS/blob/master/pictures/front1part.jpg)
